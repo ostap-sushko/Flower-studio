@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+    integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="./style/main.min.css" />
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <a href="./index.html" class="header__logo"><svg class="header__icon">
+          <use href="./img/symbol-defs.svg#icon-logo"></use>
+        </svg></a>
+      <nav class="header__nav">
+        <ul class="header__list">
+          <li class="header__item">
+            <a href="#" class="header__link">Anemone</a>
+          </li>
+          <li class="header__item">
+            <a href="#about" class="header__link">About us</a>
+          </li>
+          <li class="header__item">
+            <a href="#store" class="header__link">Store</a>
+          </li>
+          <li class="header__item">
+            <a href="#" class="header__link">Delivery</a>
+          </li>
+          <li class="header__item">
+            <a href="#" class="header__link">Blog</a>
+          </li>
+        </ul>
+      </nav>
+      <a href="tel:+380631234567" class="header__tel"><svg class="header__phone">
+          <use href="./img/symbol-defs.svg#icon-tel"></use>
+        </svg></a>
+      <button type="button" class="header__menu">
+        <svg class="header__burger">
+          <use href="./img/symbol-defs.svg#icon-burger"></use>
+        </svg>
+      </button>
+    </div>
+  </header>
+  <main>
+    <section class="hero">
+      <div class="container">
+        <div class="hero__box">
+          <p class="hero__text">flower studio</p>
+          <svg class="hero__icon">
+            <use href="./img/symbol-defs.svg#icon-circle-text"></use>
+          </svg>
+        </div>
+        <h1 class="hero__title">ANEMON<span class="hero__span">E</span><span class="hero__span1">Ē</span></h1>
+      </div>
+    </section>
+    <section class="about" id="about">
+      <div class="container">
+        <h2 class="about__title">ABOUT</h2>
+        <p class="about__text">We are a minimalistic flower studio. We love people and flowers. Therefore, every day we
+          give people the beauty and joy creating stylish and modern masterpieces. Every bouquet we create is unique as
+          you are.</p>
+      </div>
+    </section>
+    <section class="store" id="store">
+      <div class="container">
+        <h2 class="store__title">STORE</h2>
+        <ul class="store__list">
+          <li class="store__item">
+            <picture>
+              <source
+                srcset="./img/desktop/orange_flower-desktop@1x.webp 1x, ./img/desktop/orange_flower-desktop@2x.webp 2x"
+                media="(min-width:1264px)">
+              <source
+                srcset="./img/tablet/orange_flower-tablet@1x.webp 1x, ./img/tablet/orange_flower-tablet@2x.webp 2x"
+                media="(min-width:752px)">
+              <source
+                srcset="./img/mobile/orange_flower-mobile@1x.webp 1x, ./img/mobile/orange_flower-mobile@2x.webp 2x"
+                media="(max-width:751px)">
+              <img src="./img/orange_flower" alt="orange_flower" class="store__image">
+            </picture>
+            <div class="store__textbox">
+              <h3 class="store__text">compliments</h3>
+              <div class="store__textline other__size"></div>
+            </div>
+            <p class="store__desc">from $15</p>
+          </li>
+          <li class="store__item">
+            <picture>
+              <source
+                srcset="./img/desktop/whitebouquet-desktop@1x.webp 1x, ./img/desktop/whitebouquet-desktop@2x.webp 2x"
+                media="(min-width:1264px)">
+              <source srcset="./img/tablet/whitebouquet-tablet@1x.webp 1x, ./img/tablet/whitebouquet-tablet@2x.webp 2x"
+                media="(min-width:752px)">
+              <source srcset="./img/mobile/whitebouquet-mobile@1x.webp 1x, ./img/mobile/whitebouquet-mobile@2x.webp 2x"
+                media="(max-width:751px)">
+              <img src="./img/whitebouquet" alt="white_bouquet" class="store__image">
+            </picture>
+            <div class="store__textbox">
+              <h3 class="store__text">bouquets size S</h3>
+              <div class="store__textline"></div>
+            </div>
+            <p class="store__desc">from $25</p>
+          </li>
+          <li class="store__item">
+            <picture>
+              <source
+                srcset="./img/desktop/bluebouquet-desktop@1x.webp 1x, ./img/desktop/bluebouquet-desktop@2x.webp 2x"
+                media="(min-width:1264px)">
+              <source srcset="./img/tablet/bluebouquet-tablet@1x.webp 1x, ./img/tablet/bluebouquet-tablet@2x.webp 2x"
+                media="(min-width:752px)">
+              <source srcset="./img/mobile/bluebouquet-mobile@1x.webp 1x, ./img/mobile/bluebouquet-mobile@2x.webp 2x"
+                media="(max-width:751px)">
+              <img src="./img/bluebouquet" alt="blue_bouquet" class="store__image">
+            </picture>
+            <div class="store__textbox">
+              <h3 class="store__text">bouquets size M</h3>
+              <div class="store__textline"></div>
+            </div>
+            <p class="store__desc">from $45</p>
+          </li>
+          <li class="store__item">
+            <picture>
+              <source
+                srcset="./img/desktop/yellowbouquet-desktop@1x.webp 1x, ./img/desktop/yellowbouquet-desktop@2x.webp 2x"
+                media="(min-width:1264px)">
+              <source
+                srcset="./img/tablet/yellowbouquet-tablet@1x.webp 1x, ./img/tablet/yellowbouquet-tablet@2x.webp 2x"
+                media="(min-width:752px)">
+              <source
+                srcset="./img/mobile/yellowbouquet-mobile@1x.webp 1x, ./img/mobile/yellowbouquet-mobile@2x.webp 2x"
+                media="(max-width:751px)">
+              <img src="./img/yellowbouquet" alt="yellow_bouquet" class="store__image">
+            </picture>
+            <div class="store__textbox">
+              <h3 class="store__text">bouquets size L</h3>
+              <div class="store__textline"></div>
+            </div>
+            <p class="store__desc">from $60</p>
+          </li>
+        </ul>
+        <button type="button" class="store__button">Order flowers</button>
+      </div>
+    </section>
+
+    <section class="delivery"> 
+      <div class="container">
+        <h2 class="delivery__title">DELIVERY</h2>
+        <ul class="delivery__list">
+          <li class="delivery__item">
+            <span class="delivery__element">1</span>
+            <p class="delivery__text">Choose your bouquet and make an order on website</p>
+            
+          </li>
+          <li class="delivery__item">
+            <span class="delivery__element">2</span>
+            <p class="delivery__text">Wait for the call to clarify the details of the order. You can pay online or to the courier</p>
+          </li>
+          <li class="delivery__item">
+            <span class="delivery__element">3</span>
+            <p class="delivery__text">Wait for the delivery at the selected time or pick up the order from the store</p>
+          </li>
+          <li class="delivery__item">
+            <span class="delivery__element">4</span>
+            <p class="delivery__text">Make someone happy or enjoy yourself</p>
+          </li>
+        </ul>
+
+      </div>
+    </section>
+
+    <section class="blog">
+      <div class="container">
+        <h2 class="blog__title">BLOG</h2>
+        <ul class="blog__list">
+          <li class="blog__item">
+            <picture>
+              <source srcset="./img/desktop/blog-greendesktop@1x.webp 1x, ./img/desktop/blog-greendesktop@2x.webp 2x" media="(min-width:1264px)">
+              <source srcset="./img/tablet/blog-greentablet@1x.webp 1x, ./img/tablet/blog-greentablet@2x.webp 2x" media="(min-width:752px)">
+              <source srcset="./img/mobile/blog-greenmobile@1x.webp 1x, ./img/mobile/blog-greenmobile@2x.webp 2x" media="(max-width:751px)">
+              <img src="./img/desktop/blog-greendesktop@1x.webp" alt="" class="blog__img">
+            </picture>
+          </li>
+
+          <li class="blog__item">
+            <source srcset="./img/desktop/blog-orangedesktop@1x.webp 1x, ./img/desktop/blog-orangedesktop@2x.webp 2x" media="(min-width:1264px)">
+            <source srcset="./img/tablet/blog-orangetablet@1x.webp 1x, ./img/tablet/blog-orangetablet@2x.webp 2x" media="(min-width:752px)">
+            <source srcset="./img/mobile/blog-orangemobile@1x.webp 1x, ./img/mobile/blog-orangemobile@2x.webp 2x" media="(max-width:751px)">
+            <img src="./img/desktop/blog-orangedesktop@1x.webp" alt="" class="blog__img">
+          </li>
+
+          <li class="blog__item">
+            <picture>
+              <source srcset="./img/desktop/blog-bluedesktop@1x.webp 1x, ./img/desktop/blog-bluedesktop@2x.webp 2x" media="(min-width:1264px)">
+              <source srcset="./img/tablet/blog-bluetablet@1x.webp 1x, ./img/tablet/blog-bluetablet@2x.webp 2x" media="(min-width:752px)">
+              <source srcset="./img/mobile/blog-bluemobile@1x.webp 1x, ./img/mobile/blog-bluemobile@2x.webp 2x" media="(max-width:751px)">
+            <img src="./img/desktop/blog-bluedesktop@1x.webp" alt="" class="blog__img">
+          </picture>
+          </li>
+        </ul>
+
+        <p class="blog__text">Follow to our newsletter</p>
+
+        <button type="button" class="blog__button">Subscribe</button>
+      </div>
+    </section>
+
+
+
+
+  </main>
+  <footer class="footer">
+    <div class="container footer__wrap">
+      <a href="./index.html" class="footer__logo">
+        <svg class="footer__icoon">
+          <use href="./img/symbol-defs.svg#icon-logo"></use>
+        </svg>
+      </a>
+      <ul class="footer__list">
+        <li class="footer__item">
+          <h2 class="footer__title">Navigation</h2>
+          <ul class="footer__items">
+            <li class="footer__elem"><a href="" class="footer__link">Anemone</a></li>
+            <li class="footer__elem"><a href="" class="footer__link">About us</a></li>
+            <li class="footer__elem"><a href="" class="footer__link">Store</a></li>
+            <li class="footer__elem"><a href="" class="footer__link">Delivery</a></li>
+          </ul>
+        </li>
+        <li class="footer__item">
+          <h2 class="footer__title">Opening times</h2>
+          <ul class="footer__items">
+            <li class="footer__elem"><p class="footer__link">Every day<br>9:00 - 22:00</p></li>
+          </ul>
+        </li>
+        <li class="footer__item">
+          <h2 class="footer__title">Contacts</h2>
+          <ul class="footer__items">
+            <li class="footer__elem"><a href="" class="footer__link">+38 063 123 45 67</a></li>
+            <li class="footer__elem"><a href="" class="footer__link">anemonestudio@example.com</a></li>
+            <li class="footer__elem"><a href="" class="footer__link">Reitarska Street, 11
+              Kyiv, Ukraine</a></li>
+          </ul>
+        </li>
+      </ul>
+      <ul class="footer__box">
+        <li class="footer__item">
+          <a href="" class="footer__social">
+            <svg class="footer__svg">
+              <use href="./img/symbol-defs.svg#icon-facebook"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="footer__item">
+          <a href="" class="footer__social">
+            <svg class="footer__svg">
+              <use href="./img/symbol-defs.svg#icon-instagram"></use>
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </footer>
+</body>
+</html>

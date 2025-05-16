@@ -1,0 +1,80 @@
+.header {
+    padding-top: 16px;
+    @media screen and (min-width: 752px) {
+      padding-top: 24px;
+    }
+    @media screen and (min-width: 1264px) {
+      padding-top: 28px;
+    }
+  
+    & .container {
+      display: flex;
+      align-items: center;
+    }
+  
+    &__logo {
+      margin-right: auto;
+      @media screen and (min-width: 752px) {
+        margin-right: 80px;
+      }
+      @media screen and (min-width: 1264px) {
+        margin-right: 261px;
+      }
+    }
+  
+    &__icon {
+      width: 45px;
+      height: 35px;
+      @media screen and (min-width: 752px) {
+        width: 72px;
+        height: 57px;
+      }
+    }
+  
+    &__nav {
+      display: none;
+      @media screen and (min-width: 752px) {
+        display: block;
+        margin-right: auto;
+      }
+    }
+    &__list {
+      display: flex;
+      gap: 24px;
+      @media screen and (min-width: 1264px) {
+        gap: 48px;
+      }
+    }
+    &__link {
+      color: $text-color;
+      font-size: 20px;
+      font-weight: 400;
+      line-height: 1.2;
+    }
+  
+    &__phone {
+      width: 22px;
+      height: 22px;
+      @media screen and (min-width: 752px) {
+        width: 24px;
+        height: 24px;
+      }
+      @media screen and (min-width: 1264px) {
+        width: 28px;
+        height: 28px;
+      }
+    }
+  
+    &__menu {
+      margin-left: 14px;
+      @media screen and (min-width: 752px) {
+        display: none;
+      }
+    }
+  
+    &__burger {
+      width: 24px;
+      height: 24px;
+    }
+  }
+  

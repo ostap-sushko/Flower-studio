@@ -1,0 +1,77 @@
+.about {
+  
+    & .container{
+      background-image:url(../img/mobile/flower-mobile@1x.webp) ;
+      background-repeat: no-repeat;
+      background-size: 288px,178px;
+      background-position: bottom center;
+      @media screen and (max-width: 751px){
+          height: 390px; 
+      }
+      @media (min-device-pixel-ratio: 2),
+        (min-resolution: 192dpi),
+        (min-resolution: 2dppx) {
+        background-image: url(../img/mobile/flower-mobile@2x.webp);
+      }
+      @media screen and (min-width: 752px) {
+        background-image: url(../img/tablet/flower-tablet@1x.webp);
+        background-position: right bottom;
+        background-size: 344px,217px;
+        @media (min-device-pixel-ratio: 2),
+          (min-resolution: 192dpi),
+          (min-resolution: 2dppx) {
+          background-image: url(../img/tablet/flower-tablet@2x.webp);
+        }
+      }
+      @media screen and (min-width: 1264px) {
+          height: 424px;
+        background-image: url(../img/desktop/flower-desktop@1x.webp);
+        background-size: 632px,344px;
+        @media (min-device-pixel-ratio: 2),
+          (min-resolution: 192dpi),
+          (min-resolution: 2dppx) {
+          background-image: url(../img/desktop/flower-desktop@2x.webp);
+        }
+      }
+    }
+   
+    &__title {
+      color: $text-color;
+      font-size: 24px;
+      font-weight: 700;
+      line-height: normal;
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      @media screen and (min-width: 752px){
+       font-size: 44px;
+      }
+    }
+    &__title::after{
+      content:"" ;
+      width: 100%;
+     height: 1px;
+     background-color:$text-color ;
+     display: inline-block;
+    }
+  
+    &__text {
+      color:$text-color;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: normal;
+      width: 100%;
+      margin-top: 32px;
+      @media screen and (min-width: 752px){
+        font-size: 20px;
+        width: 322px;
+        margin-top:56px;
+      }
+      @media screen and (min-width: 1264px){
+          width: 500px;
+          margin-top: 120px;
+          font-size: 22px;
+      }
+    }
+  }
+  

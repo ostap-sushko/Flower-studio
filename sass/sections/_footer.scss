@@ -1,0 +1,78 @@
+.footer {
+    padding-top: 32px;
+    padding-bottom: 32px;
+    background-color: $text-color;
+    @media screen and (min-width: 752px) {
+      padding-top: 60px;
+      padding-bottom: 54px;
+    }
+    @media screen and (min-width: 1264px) {
+      padding-top: 72px;
+      padding-bottom: 72px;
+    }
+    &__logo {
+      display: none;
+      @media screen and (min-width: 1264px) {
+      display: block;
+        }
+    }
+    &__icoon {
+      width: 73px;
+      height: 57px;
+      fill: $main-color;
+    }
+    &__list{
+      display: flex;
+      flex-wrap: wrap;
+      row-gap: 32px;
+      gap: 44px;
+    }
+    &__title{
+  color: $main-color;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 0.81;
+  margin-bottom: 18px;
+  
+  @media screen and (min-width: 752px) {
+      font-size: 20px;
+      line-height: 0.83;
+    }
+  }
+  &__link{
+  color: $main-color;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  
+  @media screen and (min-width: 752px) {
+      font-size: 16px;
+    }
+  }
+  
+  &__box{
+      display: flex;
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      @media screen and (min-width: 752px) {
+          position: static;
+        }
+  
+  }
+  &__svg{
+  width: 28px;
+  height: 28px;
+   fill: $main-color;
+  }
+  &__wrap{
+      display: flex;
+      justify-content: space-between;
+      position: relative;
+  }
+  }
+  
